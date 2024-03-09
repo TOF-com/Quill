@@ -1,0 +1,6 @@
+@Quill_HostAddress = http://localhost:5201
+
+GET {{Quill_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

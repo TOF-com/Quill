@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quill")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7eb03c7b3178c035c14b6b87de49bfc41f8dd2dc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0606de96b9eefa767cf8295daf4c0189a3e029e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quill")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quill")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

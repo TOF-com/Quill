@@ -1,4 +1,6 @@
-﻿namespace Quill.Models;
+﻿using System;
+
+namespace Quill.Models;
 
 public class Author
 {
@@ -21,7 +23,7 @@ public class Author
 
     public Author(Guid authorId)
     {
-        
+        AuthorId = authorId;
     }
     
 }

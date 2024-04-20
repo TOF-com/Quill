@@ -14,11 +14,18 @@ public class User
 
     public DateTime DateJoined { get; set; }
     
-    public User(){}
-
-    public User(Guid userId)
+    public User(string email, string name)
     {
-        
+        Email = email;
+        Name = name;
+        UserId = Guid.NewGuid();
+    }
+
+    public User(Guid userId, string email, string name)
+    {
+        UserId = userId;
+        Email = email;
+        Name = name;
     }
     
 }
